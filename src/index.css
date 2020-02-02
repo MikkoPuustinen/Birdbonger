@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bird {
+  border: 2px solid blue;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.birdInfo {
+  width: 100%;
+  display:flex;
+}
+.otherInfo {
+  width: 100%;
+  display: flex;
+}
+
+.birdInfoAttribute {
+  width: 50%;
+  border: 2px solid blue;
+  border-radius: 2px;
+  padding: 4px;
+}
+.birdOtherAttribute {
+  border: 2px solid blue;
+  width: 33%;
+  font-size: smaller;
+  padding: 4px;
+}
+.birdList {
+  padding: 5px;
+  margin-top: 40px;
+}
+.naviItem {
+  text-decoration: none;
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 10px 5px;
+  font-size: large;
+  margin: 15px 10px;
+}
+
+.navbar {
+  margin-top: 5px;
+  width: 100%
+}
