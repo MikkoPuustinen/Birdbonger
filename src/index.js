@@ -180,6 +180,28 @@ const App = () => {
         if(birds) {
             
             setBirds(birds)
+        } else {
+            birds = [
+                {
+                    species: "Owl",
+                    notes: "Very big round eyes",
+                    rarity: "rare",
+                    time: new Date().getTime(),
+                    key: 0,
+                    coords: null
+                },
+                {
+                    species: "Seagull",
+                    notes: "Very white",
+                    rarity: "common",
+                    time: new Date().getTime(),
+                    key: 1,
+                    coords: null
+                }
+            ]
+            console.log(birds)
+            localStorage.setItem('birds',JSON.stringify(birds))
+            setBirds(birds)
         }
         
     }, [])
